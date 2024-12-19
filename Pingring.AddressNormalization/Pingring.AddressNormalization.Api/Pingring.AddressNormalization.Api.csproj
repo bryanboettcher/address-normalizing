@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>0cc6aacf-82c7-4ab2-8e0a-97f565271667</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Lamar" Version="14.0.1" />
+    <PackageReference Include="Lamar.Diagnostics" Version="14.0.1" />
+    <PackageReference Include="Lamar.Microsoft.DependencyInjection" Version="14.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.8" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.20.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="7.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Pingring.Common\Pingring.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Registries\Authentication\" />
+  </ItemGroup>
+
+</Project>

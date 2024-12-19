@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35201.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pingring.AddressNormalization.Api", "Pingring.AddressNormalization.Api\Pingring.AddressNormalization.Api.csproj", "{F168DF99-0EF2-4C10-BFC4-3CF31702B574}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pingring.Common", "Pingring.Common\Pingring.Common.csproj", "{3559EBF6-7466-418C-A79B-09C656DC2076}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F168DF99-0EF2-4C10-BFC4-3CF31702B574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F168DF99-0EF2-4C10-BFC4-3CF31702B574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F168DF99-0EF2-4C10-BFC4-3CF31702B574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F168DF99-0EF2-4C10-BFC4-3CF31702B574}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3559EBF6-7466-418C-A79B-09C656DC2076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3559EBF6-7466-418C-A79B-09C656DC2076}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3559EBF6-7466-418C-A79B-09C656DC2076}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3559EBF6-7466-418C-A79B-09C656DC2076}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {668C9520-E149-421B-9C77-4DA4B74FDC61}
+	EndGlobalSection
+EndGlobal
