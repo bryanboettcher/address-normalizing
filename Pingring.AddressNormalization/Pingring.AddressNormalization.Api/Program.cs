@@ -1,5 +1,6 @@
 using Lamar;
 using Lamar.Microsoft.DependencyInjection;
+using Pingring.AddressNormalization.Api.Extensions;
 using Pingring.Common;
 
 namespace Pingring.AddressNormalization.Api;
@@ -12,7 +13,6 @@ public class Program
         builder.Host.UseLamar(ConfigureContainer);
 
         var app = builder.Build();
-
         await app.StartupAsync();
     }
 
@@ -30,11 +30,5 @@ public class Program
                 scan.With(new AllInterfacesConvention());
             }
         );
-
-        services.Policies.Add<LoggerPolicy>();
     }
-}
-
-public readonly struct ProgramScanAnchor
-{
 }
